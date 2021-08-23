@@ -1,0 +1,258 @@
+body{
+ margin:0px;
+ padding:0px;
+ font-family:sans-serif;
+ background:url(../images/ng1.jpg);
+ background-size:100%;
+  //background-repeat:no-repeat;
+ }
+
+#bord{
+	 background:white;
+ background-size:100%;
+  background-repeat:no-repeat;
+     height: 965px;
+    width: 100%;
+   overflow-y:auto;
+	margin-bottom:20px;
+  
+}
+
+#wrapper{
+    width: 800px;
+    border: 1px solid #000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1147px;
+    margin: 10px auto;
+	background:white;
+ 
+}
+
+#header{
+	width:800px;
+	height:100px;
+	border-bottom:1px solid #000;
+	background:url(../images/header.jpg);
+   background-size:100%;
+  background-repeat:no-repeat;
+}
+
+
+
+.responsive-bar{
+ width:100%;
+ background:#202c45;
+ padding:10px 30px;
+ box-sizing:border-box;
+ display:none;
+}
+.responsive-bar h3{
+ margin:0;
+ padding:3px 0;
+ color:#fff;
+ float:left;
+}
+
+.responsive-bar h3 a{
+text-decoration:none;
+ color:#fff;
+
+}
+
+.responsive-bar h4{
+padding:0;
+color:#fff;
+float:right;
+margin:0;
+padding:5px 10px;
+background:#f2184f;
+text-transform:uppercase;
+cursor:pointer;
+}
+
+
+nav ul {
+	list-style-type:none;
+	
+}
+
+nav ul li{
+	    margin-left: 18px;
+	display:inline-block;
+	padding:10px 30px;
+	background:#f2184f;
+	color:white;
+	font-weight:bold;
+	
+}
+
+  nav{
+   display:none;
+   padding:0px;
+  }
+  
+  .responsive-bar{
+    display:block;
+  }
+  
+  
+  .photo{
+	  width:340px;
+	  height:300px;
+	  border:1px dashed red;
+	  float:left;   
+	  margin: 10px;
+    margin-left: 30px;
+	
+  }
+  
+  
+  #photo1{
+	 background:url(../images/photo1.jpg);
+	     background-size: cover;
+  }
+  
+  
+   #photo2{
+	 background:url(../images/photo2.jpg);
+	     background-size: cover;
+  }
+  
+    #photo3{
+	 background:url(../images/photo3.jpg);
+	     background-size: cover;
+  }
+  
+    #photo4{
+	 background:url(../images/photo4.jpg);
+	     background-size: cover;
+  }
+  
+    #photo5{
+	 background:url(../images/photo5.jpg);
+	     background-size: cover;
+  }
+  
+    #photo6{
+	 background:url(../images/photo6.jpg);
+	     background-size: cover;
+  }
+  
+  .about{
+	margin: 0px 18px;
+    padding-top: 20px;
+      margin: 0px 18px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    word-spacing: 8px;
+    text-indent: 50px;
+  }
+  
+  
+  
+  
+  #about_photo{
+	    background:url(../images/about1.jpg);
+	     background-size: cover;
+		 height:300px;
+		 width:300px;
+		
+  }
+  
+  div#contact {
+    font-size: 35px;
+    margin-bottom: 17px;
+    color: #f00;
+    font-family: initial;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.contact-form{
+	    margin: 0px 20px 10px 20px;
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px dashed red;
+    font-size: 17px;
+}
+.contact-formp{
+   margin: 0px 20px 10px 20px;
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.signupbtn{
+	color: green;
+    font-family: serif;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    font-size: 15px;
+       margin-left: auto;
+    margin-right: auto;
+    display: block;
+	}
+	
+	.home{
+		
+		margin: 0px 18px;
+    padding-top: 20px;
+      margin: 0px 18px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    word-spacing: 8px;
+    text-indent: 50px;
+	}
+	
+	
+	#logo-index{
+	background:url(../images/logo_dog1.png);
+	     background-size: cover;	
+		 width:100%;
+		 height:300px;
+		// border:1px solid #000;
+		 
+	}
+	
+	#bord_id{
+		background: crimson;
+	width: 175px;
+    height: 250px;
+    border: 1px solid #000;
+    margin: 10px 4px;
+    float: left;
+	}
+	
+	.circle-photo{
+	    width: 130px;
+    height: 130px;
+    border: 1px dashed #000;
+    margin: 10px auto;
+    border-radius: 100px;
+	}
+	
+	#circle-photo1{
+		background:url(../images/jindo.jpg);
+	     background-size: cover;
+	}
+	
+	#circle-photo2{
+		background:url(../images/spliz.jpg);
+	     background-size: cover;
+	}
+	
+	#circle-photo3{
+		background:url(../images/pointer.jpg);
+	     background-size: cover;
+	}
+	
+	#circle-photo4{
+		background:url(../images/haski.jpg);
+	     background-size: cover;
+	}

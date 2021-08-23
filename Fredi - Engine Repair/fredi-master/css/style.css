@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+}
+div#wrapLoginForm {
+    margin: 40px 15px;
+    font-size: 17px;
+    font-family: cursive;
+}
+input#submitRegister {
+    width: 150px;
+    float: left;
+    background: green;
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+    cursor:pointer;
+}
+#textHome{
+    top:100px;
+    color:white;
+    position:relative;
+    left:30px;
+    width:300px;
+}
+#logo {
+    display:inline-block;
+    width:100%;
+    height: 70px;
+    background-color:#353535;
+}
+#logo1 {
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+}
+#text {
+    /*width: 50px; */
+    float: left;
+    margin: 5px 10px;
+    font-weight: bold;
+    color:white;
+}
+#text_effect
+{
+    /*color:white;*/
+animation: textgrowth 1s infinite alternate;
+width: 600px;
+
+}
+
+@keyframes textgrowth {
+    0% {
+    font-size: 35px;
+    }
+    100% {
+    font-size: 50px;
+    }
+}
+img#icon {
+    width: 70px;
+    float: left;
+    display: block;
+    height: 40px;
+    top: 15px;
+    position: relative;
+    left: 8px;
+}
+#wrap-header-recenzii
+{
+    border:1px solid black;
+}
+#wrap-header {
+    height: 500px;
+    width: calc(100% - 0px);
+    border: 1px solid black;
+    padding: 0px 0px;
+    margin: 0px;
+    /*background: lightblue url(../images/backgroundCars.jpg) no-repeat fixed center;*/
+    background-size: cover;
+    background-position-y: 0.5px;
+}
+
+.menu {
+  /* display: inline;*/
+    float:left ;
+}
+div#meniu {
+
+    float: right;
+    top: 0px;
+    position: relative;
+    /*display: inline-block;*/
+}
+#messageFunctionality {
+    height: 26px;
+    position: fixed;
+    /* width: 50%; */
+    left: calc(50% - 25%);
+    top: 120px;
+    font-size:25px;
+    display: block;background: red;
+    padding: 17px;
+    color: white;
+}
+
+#meniul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+  }
+  #meniul li a:hover{
+      cursor:pointer;
+      color:red;
+    }
+  #styleTitle{
+    color:#07dc07;
+  }
+  input#submitLogin {
+    width: 150px;
+    right: 10px;
+    position: relative;
+    float: left;
+    background: green;
+    color: white;
+    font-size: 18px;
+    font-family: serif;
+    cursor:pointer;
+}
+.menu a
+{
+    display: block;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+#usernameSession{
+   /*  display: none;*/
+}
+
+#popUpLogin {
+    height: 250px;
+    width: 460px;
+    background: #fff;
+    position: absolute;
+    border: 1px solid;
+    left: calc(50% - 230px);
+    border-radius: 20px;
+    top: 30%;
+    display:none;
+    z-index:100;
+}
+div#closepopUpLogin {
+    cursor:pointer;
+    background: red;
+    width: 30px;
+    /* height: 30px; */
+    line-height: 30px;
+    /* align-items: center; */
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+div#wrapSingInForm {
+    margin: 40px 10px;
+}
+#despre
+{
+    
+    display:block;
+    background-color:#3f51b5
+}
+#despre h1
+{
+    margin :0px;
+}
+
+input {
+    height: 30px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    outline: none;
+    border: 1px solid #737373;
+    background: white;
+    padding-left: 10px;
+    border-radius: 18px;
+}
+#wrapSingInForm{
+  display:none;  
+}
+div#wrapLoginForm p ,#wrapSingInForm p{
+    /* float: left; */
+    display: inline;
+}
+div#rightFooter {
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+#footer{
+    background: black;
+    width: 100%;
+    display: flex;
+}
+#leftFooter,#rightFooter{
+    width:50%;
+    margin: 5px;
+}
+#despre{
+    height: 300px;
+    width: 100%;
+    background: green;
+}

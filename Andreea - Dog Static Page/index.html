@@ -1,0 +1,123 @@
+
+
+
+<html>
+<head>
+<title>Dogs</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+
+</div>
+<nav>
+<ul>
+	<a href="index.html"><li>Acasa</li></a>
+	<a href="https://www.adoptiicaini.ro/cat/timisoara/"><li>Adopta</li></a>
+	<a href="fotografii.html"><li>Fotografii</li></a>
+	<a href="despre.html"><li>Despre</li></a>
+	<a href="contact.html"><li>Contact</li></a>
+</ul>
+<div style="clear:both"></div>
+</nav>
+
+<div class="responsive-bar">
+	  <h3 class="brand"><a href="#"> Akita</a></h3>
+	  <h4 class="menu">Menu</h4>
+	  <div style="clear:both"></div>
+	</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>  <!--JQUERY CND -->
+         <script type="text/javascript">
+		 $(document).ready(function(){
+		   $(".menu").click(function(){
+		     $("nav").slideToggle(500);
+		   
+		   })
+		 })
+		</script>
+<div id="bord">
+
+<!--PAGINA Acas-->
+<br><br>
+
+
+<div class="home">
+
+<h1 style="text-indent: 150px;
+    font-family: fantasy;
+    color: #bf0000;">Vrei sa ai un prieten bun? </h1>
+<div id="logo-index"></div>
+<p style="text-indent: 100px;">Aici sunt ei ... Adauga un nou membru in familie ! Aruncati o privire la cativa dintre catelusii nostri </p>
+<center><a href="fotografii.html"><button class="signupbtn" >Da Vreau </button></a></center>
+<hr style="boder:0px;border:1px dashed #000;">
+
+
+<h1 style="text-indent: 0px;
+    font-family: fantasy;
+    color: #bf0000;">Care este cea mai buna solutie pentru tine ?</h1>
+	
+	
+	
+<div id="bord_id">
+	<div class="circle-photo" id="circle-photo1"></div>	
+	<center><a href="#info"><button onclick="info(1)"  class="signupbtn" >Detalii!</button></a></center>
+</div>
+
+
+<div id="bord_id">
+	<div class="circle-photo" id="circle-photo2"></div>	
+	<center><a href="#info"><button onclick="info(2)"  class="signupbtn" >Detalii!</button></a>
+	</center>
+</div>
+
+
+<div id="bord_id">
+	<div class="circle-photo" id="circle-photo3"></div>	
+	<center><a href="#info"><button onclick="info(3)" class="signupbtn" >Detalii!</button></a></center>
+</div>
+
+
+
+<div id="bord_id">
+	<div class="circle-photo" id="circle-photo4"></div>	
+	<center><a href="#info"><button type="button" onclick="info(4)"  class="signupbtn" >Detalii!</button></a></center>
+</div>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<hr>
+<p id="info"></p>
+	
+	
+</div>
+<!--End Pagina Acasa-->
+
+</div>
+</div>
+
+<!--Script Java-->
+<script type="text/javascript">
+	
+	function info(x){
+	if(x==1)
+
+	   document.getElementById("info").innerHTML = "Istoria Jindo-ului nu este clara si precisa, cu date exacte care sa demonstreze aparitia lor ca rasa. Considerat o comoara a naturii, cainele corean Jindo, cunoscut si ca Chindo sau Jindo Gae se pare ca este o rasa descendenta a cainilor de lupta mongoli, care au fost lasati in insula Jindo dupa invazia Mongola din Corea in secolul XIII. Cainii soldatilor au ramas pe insula, izolati, reusind sa traiasca sute de ani fara ajutor uman. Jindo sunt atat caini de vanatoare, cat si caini de paza.Cu toate ca exista in mai multe variatii de culori – negru, alb, galben, rosu, cafeniu si in combinatii ale acestora, doar Jindo alb sau rosu este aparat de legea coreana ca si monument natural.";
+	   else if(x==2)
+	     document.getElementById("info").innerHTML = "Ciobanescul Islandez este singura rasa originara din Islanda. El este un ciobanesc blanos de talie mica, folosit ca si caine de paza, ciobanesc sau utilitar. Acest caine are o coada stufoasa pe care o poarta pe spate, picioare scurte si infatisarea unei vulpi. Botul lui este in general de o culoare mai inchisa decat restul corpului. Islandezul este un caine puternic si agil, care va face multa galagie cand va dori ceva. De asemenea, este activ si plin de viata, dar si afectuos si loial. Nu este un caine hoinar sau vanator.";
+		  
+		else if(x==3)
+			     document.getElementById("info").innerHTML = "Pointer-ul este un caine de talie mare, musculos, puternic, cu un aspect elegant, nobil. Are un corp bine construit, simetric, cu un aspect patrat. Capul este porportional cu corpul, craniul de latime medie, stop pronuntat, botul dreptunghiular este in vant si tesit. Ochii sunt mari, rotunzi, usor bulbucati, de nuanta inchisa.Este un caine inteligent, energic, vioi, prietenos, echilibrat, muncitor, entuziast. Este ascultator si devotat stapanului, iubitor si rabdator cu copiii, este prietenos chiar cu persoanele necunoscute. ";
+		else 
+		  	      document.getElementById("info").innerHTML = "Husky Siberian este un câine de talie medie, cu blana deasă și dublă. Originar din Siberia, acest câine este agil, alert, inteligent și prietenos.Husky-ul Siberian este un câine considerat a face parte din grupul câinilor de muncă.Este un câine de mărime medie rapid, suplu și are o eleganță deosebită în mișcare. Siberianul se distinge printr-un corp bine îmblănit, urechi drepte, vigilente și o coadă stufoasă, ca de vulpe. Pot căra încărcături ușoare, la o viteză moderată pe distanțe lungi. Proporțiile corpului sugerează un echilibru între putere, viteză și rezistență. Câinele se simte bine în hamuri, fiind foarte sigur pe el, iar performanțele sale sunt evidente. Masculii sunt puternici, dar niciodată greoi. Femelele au o structură mai fină, dar de asemenea, puternică și, la fel ca și masculii, dau impresia că forța și rapiditatea lor nu au limite. Husky-ul Siberian își utilizează cu măsură resursele, economisind cu foarte mare chibzuință energia.";
+		  }
+	
+	</script>
+	
+
+</body>
+</html>

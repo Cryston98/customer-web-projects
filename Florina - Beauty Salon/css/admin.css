@@ -1,0 +1,268 @@
+div#leftMenu {
+    top: 0;
+    display: block;
+    width: 280px;
+    background: #191919;
+    margin: 0;
+    position: fixed;
+    left: 0px;
+    height: 100%;
+}
+#delectForm,#editForm{
+    display: none;
+    position: fixed;
+    top: 150px;
+    background: #f6db89;
+    width: 400px;
+    border-radius: 10px;
+    left: calc(50% - 200px);
+    border: 1px solid #000;
+}
+
+#delectForm input, #editForm input{
+  background: white;
+margin: 5px 20px;
+width: calc(100% - 40px);
+}
+#delectForm span,#editForm span{
+  position: absolute;
+    right: 10px;
+    outline: none;
+    top: 5px;
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 50px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid red;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+#delectForm input[type="submit"], #editForm input[type="submit"] {
+    height: 30px;
+    border: 0px;
+    width: 160px !important;
+    background: #04cc4b;
+    margin: 40px 0px 10px;
+    position: relative;
+    left: 125px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#delectForm h2#textProduct2, #editForm h2#textProduct1{
+    margin: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 0px;
+    top: 15px;
+    position: relative;
+}
+
+
+select{
+    width: 100%;
+    padding: 12px;
+    margin: 3px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+button#editProduct,button#deleteProduct {
+    width: 30px;
+    margin: 0px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+    background: transparent;
+    color: #f3a74c;
+    font-weight: bold;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+}
+#btnUploadImgPlaylist{
+    WIDTH: 100%;
+    margin: 10px auto;
+    height: 65px;
+    text-transform: capitalize;
+    font-size: 20px;
+  	text-align: center;
+    line-height: 65px;
+    background: #f6db89;
+    border: 1px solid grey;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#submitServici{
+  display: none;
+}
+#TablePhotoUP {
+    display: none;
+    border-collapse: collapse;
+    width: calc(100% - 0px);
+
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #676060;
+    text-align: left;
+}
+#TablePhotoUP th {
+    border-bottom: 3px solid #04cc4b;
+    padding: 5px;
+    width: calc(100% / 10);
+}
+
+#TablePhotoUP td{
+  height: 30px;
+  padding-top: 5px;
+}
+#optionAdmin1 input,#optionAdmin2 input{
+    width: 100%;
+    border: 1px solid gray;
+    height: 37px;
+    font-family: cursive;
+    padding: 5px;
+    margin: 10px 0px;
+    outline: none;
+    font-weight: bold;
+    border-bottom: 5px solid #e6a756;
+}
+div#leftMenu ul{
+    margin: 0px;
+    padding: 0px;
+    top: 100px;
+    position: relative;
+}
+#rigthArea {
+  position: fixed;
+  width: calc(100% - 380px);
+  left: 290px;
+  overflow-y: auto;
+  margin: 20px 40px;
+  height: 100%;
+}
+#optionAdmin1{
+  display: block;
+}
+#optionAdmin2,#optionAdmin3,#optionAdmin4{
+  display: none;
+}
+#logoAdmin{
+  height: 185px;
+  width: 185px;
+  text-align: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  left: 35px;
+  position: relative;
+  background: url(../img/admin.png);
+  top: 50px;
+}
+div#leftMenu  a:hover  {
+  color:greenyellow;
+}
+div#leftMenu  a {
+    color: #fefffe;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+div#leftMenu li {
+  border-bottom: 1px solid white;
+  height: 30px;
+  margin: 5px;
+  padding-left: 20px;
+  line-height: 30px;
+  list-style-type: none;
+  font-family: serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+div#leftMenu li i{
+  margin-right: 10px;
+}
+.dell i:hover{
+    color:red;
+    cursor: pointer;
+    font-weight: bold;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3b3b3b;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #btnDell{
+    background: transparent;
+    border: 0px;
+    outline: none;
+}
+
+  .wrapper {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 800px;
+  }
+
+  .table {
+    margin: 20px auto;
+    width: 95%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: table;
+  }
+  @media screen and (max-width: 580px) {
+    .table {
+      display: block;
+    }
+  }
+
+  .row {
+    display: table-row;
+    background: #f6f6f6;
+  }
+  .row:nth-of-type(odd) {
+    background: #e9e9e9;
+  }
+  .row.header {
+    font-weight: 900;
+    color: #ffffff;
+    background: #ea6153;
+  }
+  .row.green {
+    background: #27ae60;
+  }
+  .row.blue {
+    background: #2980b9;
+  }
+  @media screen and (max-width: 580px) {
+    .row {
+      padding: 8px 0;
+      display: block;
+    }
+  }
+
+  .cell {
+    padding: 6px 12px;
+    display: table-cell;
+  }
+  @media screen and (max-width: 580px) {
+    .cell {
+      padding: 2px 12px;
+      display: block;
+    }
+  }
+
+
+.dell{
+    text-align: center;
+}

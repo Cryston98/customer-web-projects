@@ -1,0 +1,48 @@
+.photoRecenzii{
+    height: 35px;
+    width: 45px;
+    background: white url(../images/user.png);
+    float: left;
+    background-size: 100% 100%;
+}
+div#recenzia {
+    margin: 20px;
+    width: 700px;
+}
+.colorStars{
+   color:#FF9800;
+}
+
+.wrap-recenzii{
+    height: 20px;
+    display: block;
+    width: 100%;
+}
+.username-recenzii, .rating-recenzii{
+    float:left;
+    margin-right: 10px;
+}
+
+div#selectRatingStars {
+    display: block;
+    width: 100%;
+    float: left;
+    left: 13px;
+    position: relative; 
+}
+input#textMyRecenzie{
+    width: 700px;
+    float: left;
+}
+#btnLoginRecenzie{
+    color:green;
+}
+#submitRecenzie{
+    width: 70px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 16px;
+    background: green;
+    color: white;
+    float: left;
+}

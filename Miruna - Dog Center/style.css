@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 500px;
+	left: 650px;
+	transform: translate(-50%,-25%);
+  text-align: center;
+}
+.title h1{
+	color:#000;
+	font-size: 70px;
+	text-align: center;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: none;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #fff;
+  color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 115px;
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 0.6s ease;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff;color: black;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+.description{
+	position: absolute;
+	top: 500px;
+	left: 650px;
+	transform: translate(-50%,-25%);
+}
+.description h2{
+	color:#000;
+	font-size: 70px;
+	text-align: center;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  text-align: center;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #f59d05;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color:  red;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/*This is for title.*/
+.div container h1{
+  font-size: 60px;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+#formEditAnunt{
+			display: none;
+			position: absolute;
+	    top: 30%;
+	    background: #dedede;
+			z-index: 1;
+	    height: 250px;
+	    width: 400px;
+	    left: calc(50% - 200px);
+			border: 1px solid gray;
+			border-radius: 5px;
+
+}
+#formEditAnunt form{
+	position: relative;
+	margin: 10px;
+	height: 100%;
+}
+#formEditAnunt form input[type=text] {
+    margin: 50px 0px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+}
+#formEditAnunt form span {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 50px;
+    border: 1px dashed;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+div#selectOptionUpdate ul {
+    margin: 0px;
+}
+div#selectOptionUpdate ul li {
+    margin: 5px 10px;
+		cursor: pointer;
+
+}
+div#selectOptionUpdate ul li:hover {
+    color:green;
+}
+div#selectOptionUpdate {
+    position: absolute;
+    border-bottom: 2px solid green;
+    height: 30px;
+    top: 0px;
+}
+#submitEditAnunt {
+	width: 100px;
+border-radius: 5px;
+background: green;
+border: 1px solid #cecece;
+height: 28px;
+line-height: 30px;
+color: white;
+position: absolute;
+bottom: 20px;
+right: 10px;
+}
